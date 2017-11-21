@@ -1,7 +1,13 @@
- { 
-  "//":"Changes to this file will be overwritten",
-  "//":"        Modify it in the app-template directory", 
-
+{
+  "//": "        Modify it in the app-template directory",
   "name": "MyBitcoinZ",
-  "app_id": "com.btczcom.mybitcoinzosx"
+  "app_id": "com.btczcom.mybitcoinzosx",
+  "integrations": {},
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
 }
