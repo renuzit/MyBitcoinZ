@@ -1,3 +1,6 @@
+# WARNING #
+This software should be used at your own risk. It is experimental.
+
 <img src="https://raw.githubusercontent.com/anthony19114/MyBitcoinZ/master/resources/copay/android/icon/drawable-xxxhdpi-icon.png" alt="MyBitcoinZ" width="79">
 
 MyBitcoinZ is a secure bitcoin wallet platform for both desktop and mobile devices. MyBitcoinZ uses [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service) (BWS) for peer synchronization and network interfacing.
@@ -33,14 +36,21 @@ For a list of frequently asked questions please visit the [Copay FAQ](https://gi
 
 Clone the repo and open the directory:
 
-```sh
+```
 git clone https://github.com/anthony19114/MyBitcoinZ.git
 cd MyBitcoinZ
 ```
 
+Install npm modules
+```
+npm install
+rm -rf node_modules/bitcore-lib
+cp -R node_modules/bitcore-lib-btcz node_modules/bitcore-lib
+```
+
 Ensure you have [Node](https://nodejs.org/) installed, then install and start MyBitcoinZ:
 
-```sh
+```
 npm run apply:copay
 npm start
 ```
@@ -63,7 +73,7 @@ Follow the [Cordova Android Platform Guide](https://cordova.apache.org/docs/en/l
 
 When your developement enviroment is ready, run the `start:android` npm package script.
 
-```sh
+```
 npm run apply:copay
 npm run start:android
 ```
@@ -74,7 +84,7 @@ Follow the [Cordova iOS Platform Guide](https://cordova.apache.org/docs/en/lates
 
 When your developement enviroment is ready, run the `start:ios` npm package script.
 
-```sh
+```
 npm run apply:copay
 npm run start:ios
 ```
@@ -86,15 +96,15 @@ Follow the [Cordova Windows Phone Platform Guide](https://cordova.apache.org/doc
 When your developement enviroment is ready, follow this instructions:
 
 - Go to app-template folder, search for config-template.xml and then remove this line:
-```sh
+```
 <plugin name="cordova-plugin-qrscanner" spec="~2.5.0" />
 ```
 and then enable this one:
-```sh
+```
 <plugin name="phonegap-plugin-barcodescanner" spec="https://github.com/phonegap/phonegap-plugin-barcodescanner.git" />
 ```
 - Run:
-```sh
+```
 npm run clean-all
 npm run apply:copay
 npm run start:windows
@@ -107,7 +117,7 @@ The desktop version of MyBitcoinZ currently uses NW.js, an app runtime based on 
 
 When NW.js is installed, run the `start:desktop` npm package script.
 
-```sh
+```
 npm run apply:copay
 npm run start:desktop
 ```
@@ -120,7 +130,7 @@ The `final` commands build the production version of the app, and bundle it with
 
 ### Android
 
-```sh
+```
 npm run clean-all
 npm run apply:copay
 npm run final:android
@@ -128,7 +138,7 @@ npm run final:android
 
 ### iOS
 
-```sh
+```
 npm run clean-all
 npm run apply:copay
 npm run final:ios
@@ -138,15 +148,15 @@ npm run final:ios
 
 - Install Visual Studio 2015 (or newer)
 - Go to app-template folder, search for config-template.xml and then remove this line:
-```sh
+```
 <plugin name="cordova-plugin-qrscanner" spec="~2.5.0" />
 ```
 and then enable this one:
-```sh
+```
 <plugin name="phonegap-plugin-barcodescanner" spec="https://github.com/phonegap/phonegap-plugin-barcodescanner.git" />
 ```
 - Run:
-```sh
+```
 npm run clean-all
 npm run apply:copay
 npm run final:windows
@@ -155,7 +165,7 @@ npm run final:windows
 
 ### Desktop (Linux, macOS, and Windows)
 
-```sh
+```
 npm run clean-all
 npm run apply:copay
 npm run final:desktop
@@ -165,7 +175,7 @@ npm run final:desktop
 
 > cd chrome-app/
 
-```sh
+```
 npm run apply:copay
 grunt
 make
@@ -179,7 +189,7 @@ On success, the Chrome extension will be located at: `browser-extensions/chrome/
 
 To enable external services, set the `COPAY_EXTERNAL_SERVICES_CONFIG_LOCATION` or `BITPAY_EXTERNAL_SERVICES_CONFIG_LOCATION` environment variable to the location of your configuration before running the `apply` task.
 
-```sh
+```
 COPAY_EXTERNAL_SERVICES_CONFIG_LOCATION="~/.copay/externalServices.json" npm run apply:copay
 # or
 BITPAY_EXTERNAL_SERVICES_CONFIG_LOCATION="~/.bitpay/externalServices.json" npm run apply:bitpay
@@ -267,7 +277,7 @@ MyBitcoinZ uses standard gettext PO files for translations and [Crowdin](https:/
 
 To download and build using the latest translations from Crowdin, please use the following commands:
 
-```sh
+```
 cd i18n
 node crowdin_download.js
 ```
