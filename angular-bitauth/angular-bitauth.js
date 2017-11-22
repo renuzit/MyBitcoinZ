@@ -13818,27 +13818,50 @@ utils.intFromLE = intFromLE;
 
 },{"bn.js":54,"minimalistic-assert":192,"minimalistic-crypto-utils":193}],70:[function(require,module,exports){
 module.exports={
-  "_from": "elliptic@^6.0.0",
+  "_args": [
+    [
+      {
+        "raw": "elliptic@^6.0.0",
+        "scope": null,
+        "escapedName": "elliptic",
+        "name": "elliptic",
+        "rawSpec": "^6.0.0",
+        "spec": ">=6.0.0 <7.0.0",
+        "type": "range"
+      },
+      "/Users/mbrooks/projects/btcz/MyBitcoinZ/node_modules/browserify-sign"
+    ]
+  ],
+  "_from": "elliptic@>=6.0.0 <7.0.0",
   "_id": "elliptic@6.4.0",
-  "_inBundle": false,
-  "_integrity": "sha1-ysmvh2LIWDYYcAPI3+GT5eLq5d8=",
+  "_inCache": true,
   "_location": "/browserify-sign/elliptic",
+  "_nodeVersion": "7.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/elliptic-6.4.0.tgz_1487798866428_0.30510620190761983"
+  },
+  "_npmUser": {
+    "name": "indutny",
+    "email": "fedor@indutny.com"
+  },
+  "_npmVersion": "3.10.8",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
-    "registry": true,
     "raw": "elliptic@^6.0.0",
-    "name": "elliptic",
+    "scope": null,
     "escapedName": "elliptic",
+    "name": "elliptic",
     "rawSpec": "^6.0.0",
-    "saveSpec": null,
-    "fetchSpec": "^6.0.0"
+    "spec": ">=6.0.0 <7.0.0",
+    "type": "range"
   },
   "_requiredBy": [
     "/browserify-sign"
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.0.tgz",
   "_shasum": "cac9af8762c85836187003c8dfe193e5e2eae5df",
+  "_shrinkwrap": null,
   "_spec": "elliptic@^6.0.0",
   "_where": "/Users/mbrooks/projects/btcz/MyBitcoinZ/node_modules/browserify-sign",
   "author": {
@@ -13848,7 +13871,6 @@ module.exports={
   "bugs": {
     "url": "https://github.com/indutny/elliptic/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "bn.js": "^4.4.0",
     "brorand": "^1.0.1",
@@ -13858,7 +13880,6 @@ module.exports={
     "minimalistic-assert": "^1.0.0",
     "minimalistic-crypto-utils": "^1.0.0"
   },
-  "deprecated": false,
   "description": "EC cryptography",
   "devDependencies": {
     "brfs": "^1.4.3",
@@ -13876,9 +13897,15 @@ module.exports={
     "jshint": "^2.6.0",
     "mocha": "^2.1.0"
   },
+  "directories": {},
+  "dist": {
+    "shasum": "cac9af8762c85836187003c8dfe193e5e2eae5df",
+    "tarball": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.0.tgz"
+  },
   "files": [
     "lib"
   ],
+  "gitHead": "6b0d2b76caae91471649c8e21f0b1d3ba0f96090",
   "homepage": "https://github.com/indutny/elliptic",
   "keywords": [
     "EC",
@@ -13888,7 +13915,15 @@ module.exports={
   ],
   "license": "MIT",
   "main": "lib/elliptic.js",
+  "maintainers": [
+    {
+      "name": "indutny",
+      "email": "fedor@indutny.com"
+    }
+  ],
   "name": "elliptic",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/indutny/elliptic.git"
@@ -17416,27 +17451,50 @@ arguments[4][68][0].apply(exports,arguments)
 arguments[4][69][0].apply(exports,arguments)
 },{"bn.js":90,"dup":69,"minimalistic-assert":192,"minimalistic-crypto-utils":193}],106:[function(require,module,exports){
 module.exports={
-  "_from": "elliptic@^6.0.0",
+  "_args": [
+    [
+      {
+        "raw": "elliptic@^6.0.0",
+        "scope": null,
+        "escapedName": "elliptic",
+        "name": "elliptic",
+        "rawSpec": "^6.0.0",
+        "spec": ">=6.0.0 <7.0.0",
+        "type": "range"
+      },
+      "/Users/mbrooks/projects/btcz/MyBitcoinZ/node_modules/create-ecdh"
+    ]
+  ],
+  "_from": "elliptic@>=6.0.0 <7.0.0",
   "_id": "elliptic@6.4.0",
-  "_inBundle": false,
-  "_integrity": "sha1-ysmvh2LIWDYYcAPI3+GT5eLq5d8=",
+  "_inCache": true,
   "_location": "/create-ecdh/elliptic",
+  "_nodeVersion": "7.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/elliptic-6.4.0.tgz_1487798866428_0.30510620190761983"
+  },
+  "_npmUser": {
+    "name": "indutny",
+    "email": "fedor@indutny.com"
+  },
+  "_npmVersion": "3.10.8",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
-    "registry": true,
     "raw": "elliptic@^6.0.0",
-    "name": "elliptic",
+    "scope": null,
     "escapedName": "elliptic",
+    "name": "elliptic",
     "rawSpec": "^6.0.0",
-    "saveSpec": null,
-    "fetchSpec": "^6.0.0"
+    "spec": ">=6.0.0 <7.0.0",
+    "type": "range"
   },
   "_requiredBy": [
     "/create-ecdh"
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.0.tgz",
   "_shasum": "cac9af8762c85836187003c8dfe193e5e2eae5df",
+  "_shrinkwrap": null,
   "_spec": "elliptic@^6.0.0",
   "_where": "/Users/mbrooks/projects/btcz/MyBitcoinZ/node_modules/create-ecdh",
   "author": {
@@ -17446,7 +17504,6 @@ module.exports={
   "bugs": {
     "url": "https://github.com/indutny/elliptic/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "bn.js": "^4.4.0",
     "brorand": "^1.0.1",
@@ -17456,7 +17513,6 @@ module.exports={
     "minimalistic-assert": "^1.0.0",
     "minimalistic-crypto-utils": "^1.0.0"
   },
-  "deprecated": false,
   "description": "EC cryptography",
   "devDependencies": {
     "brfs": "^1.4.3",
@@ -17474,9 +17530,15 @@ module.exports={
     "jshint": "^2.6.0",
     "mocha": "^2.1.0"
   },
+  "directories": {},
+  "dist": {
+    "shasum": "cac9af8762c85836187003c8dfe193e5e2eae5df",
+    "tarball": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.0.tgz"
+  },
   "files": [
     "lib"
   ],
+  "gitHead": "6b0d2b76caae91471649c8e21f0b1d3ba0f96090",
   "homepage": "https://github.com/indutny/elliptic",
   "keywords": [
     "EC",
@@ -17486,7 +17548,15 @@ module.exports={
   ],
   "license": "MIT",
   "main": "lib/elliptic.js",
+  "maintainers": [
+    {
+      "name": "indutny",
+      "email": "fedor@indutny.com"
+    }
+  ],
   "name": "elliptic",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/indutny/elliptic.git"
@@ -22350,30 +22420,48 @@ arguments[4][81][0].apply(exports,arguments)
 arguments[4][82][0].apply(exports,arguments)
 },{"dup":82,"inherits":185,"minimalistic-assert":192}],160:[function(require,module,exports){
 module.exports={
-  "_from": "elliptic@=1.0.0",
+  "_args": [
+    [
+      {
+        "raw": "elliptic@=1.0.0",
+        "scope": null,
+        "escapedName": "elliptic",
+        "name": "elliptic",
+        "rawSpec": "=1.0.0",
+        "spec": "1.0.0",
+        "type": "version"
+      },
+      "/Users/mbrooks/projects/btcz/MyBitcoinZ/node_modules/bitauth"
+    ]
+  ],
+  "_from": "elliptic@1.0.0",
   "_id": "elliptic@1.0.0",
-  "_inBundle": false,
-  "_integrity": "sha1-KNknrowWxvZeRSpxSzbaQJVgPjk=",
+  "_inCache": true,
   "_location": "/elliptic",
+  "_npmUser": {
+    "name": "indutny",
+    "email": "fedor@indutny.com"
+  },
+  "_npmVersion": "1.4.28",
   "_phantomChildren": {
     "inherits": "2.0.3",
     "minimalistic-assert": "1.0.0"
   },
   "_requested": {
-    "type": "version",
-    "registry": true,
     "raw": "elliptic@=1.0.0",
-    "name": "elliptic",
+    "scope": null,
     "escapedName": "elliptic",
+    "name": "elliptic",
     "rawSpec": "=1.0.0",
-    "saveSpec": null,
-    "fetchSpec": "=1.0.0"
+    "spec": "1.0.0",
+    "type": "version"
   },
   "_requiredBy": [
     "/bitauth"
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-1.0.0.tgz",
   "_shasum": "28d927ae8c16c6f65e452a714b36da4095603e39",
+  "_shrinkwrap": null,
   "_spec": "elliptic@=1.0.0",
   "_where": "/Users/mbrooks/projects/btcz/MyBitcoinZ/node_modules/bitauth",
   "author": {
@@ -22383,20 +22471,24 @@ module.exports={
   "bugs": {
     "url": "https://github.com/indutny/elliptic/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "bn.js": "^1.0.0",
     "brorand": "^1.0.1",
     "hash.js": "^1.0.0",
     "inherits": "^2.0.1"
   },
-  "deprecated": false,
   "description": "EC cryptography",
   "devDependencies": {
     "browserify": "^3.44.2",
     "mocha": "^1.18.2",
     "uglify-js": "^2.4.13"
   },
+  "directories": {},
+  "dist": {
+    "shasum": "28d927ae8c16c6f65e452a714b36da4095603e39",
+    "tarball": "https://registry.npmjs.org/elliptic/-/elliptic-1.0.0.tgz"
+  },
+  "gitHead": "aaf14882e64fc7dedd4613d7e08cfa7fff303fe6",
   "homepage": "https://github.com/indutny/elliptic",
   "keywords": [
     "EC",
@@ -22406,7 +22498,15 @@ module.exports={
   ],
   "license": "MIT",
   "main": "lib/elliptic.js",
+  "maintainers": [
+    {
+      "name": "indutny",
+      "email": "fedor@indutny.com"
+    }
+  ],
   "name": "elliptic",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/indutny/elliptic.git"

@@ -5910,7 +5910,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'https://bws.mybtczwallet.org/bws/api',
+      url: 'https://bws.bitcoin.ph/bws/api',
     },
 
     download: {
@@ -5930,7 +5930,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
       },
       copay: {
         ios: 'http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=951330296&pageNumber=0&sortOrdering=2&type=Purple+Software&mt=8',
-        android: 'https://play.google.com/store/apps/details?id=com.bitpay.copay',
+        android: 'https://play.google.com/store/apps/details?id=com.btczcom.mybitcoinz',
         wp: ''
       }
     },
@@ -21349,15 +21349,15 @@ angular.module('copayApp.controllers').controller('preferencesBwsUrlController',
       switch ($scope.bwsurl.value) {
         case 'prod':
         case 'production':
-          bws = 'https://bws.mybtczwallet.org/bws/api'
+          bws = 'https://bws.bitcoin.ph/bws/api'
           break;
         case 'sta':
         case 'staging':
-          bws = 'https://bws.mybtczwallet.org/bws/api'
+          bws = 'https://bws.bitcoin.ph/bws/api'
           break;
         case 'loc':
         case 'local':
-          bws = 'https://bws.mybtczwallet.org/bws/api'
+          bws = 'https://bws.bitcoin.ph/bws/api'
           break;
       };
       if (bws) {
@@ -24800,7 +24800,7 @@ angular.module('copayApp').run(['gettextCatalog', function (gettextCatalog) {
 /* jshint +W100 */
 }]);
 window.version="1.0.0";
-window.commitHash="eddc505";
+window.commitHash="467d103";
 window.appConfig={"//":"        Modify it in the app-template directory","packageName":"copay","packageDescription":"MyBitcoinZ Bitcoin Wallet","packageNameId":"com.btczcom.mybitcoinz","statusBarColor":"#192c3a","userVisibleName":"MyBitcoinZ","purposeLine":"MyBitcoinZ BitcoinZ Wallet","bundleName":"copay","appUri":"copay","name":"copay","nameNoSpace":"copay","nameCase":"MyBitcoinZ","nameCaseNoSpace":"MyBitcoinZ","gitHubRepoName":"copay","gitHubRepoUrl":"git://github.com/anthony19114/mybitcoinz.git","gitHubRepoBugs":"https://github.com/anthony19114/mybitcoinz/issues","disclaimerUrl":"https://copay.io/disclaimer","url":"https://suite.bitcoinz.ph","appDescription":"MyBitcoinZ BitcoinZ Wallet","winAppName":"MyBitcoinZ","WindowsStoreIdentityName":"18C7659D.Copay-SecureBitcoinWallet","WindowsStoreDisplayName":"MyBitcoinZ - Secure BitcoinZ Wallet","windowsAppId":"804636ee-b017-4cad-8719-e58ac97ffa5c","pushSenderId":"1036948132229","description":"A Secure BitcoinZ Wallet","version":"1.0.0","androidVersion":"382001","_extraCSS":null,"_enabledExtensions":{"coinbase":false,"glidera":false,"amazon":false}};
 window.externalServices={};
 'use strict';
