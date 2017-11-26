@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.bitcoinz.bitcoinz-wallet"
+<widget id="com.bitcoinz.btcz-wallet"
   version="1.0.0"
   android-versionCode="382001"
   ios-CFBundleVersion="1.0.0">

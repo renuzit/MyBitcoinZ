@@ -1,7 +1,7 @@
 # WARNING #
 This software should be used at your own risk. It is experimental.
 
-<img src="https://raw.githubusercontent.com/renuzit/bitcoinz-wallet/master/resources/copay/android/icon/drawable-xxxhdpi-icon.png" alt="BitcoinZ" width="79">
+<img src="https://raw.githubusercontent.com/renuzit/btcz-wallet/master/resources/copay/android/icon/drawable-xxxhdpi-icon.png" alt="BitcoinZ" width="79">
 
 BitcoinZ Wallet is a secure bitcoin wallet platform for both desktop and mobile devices. BitcoinZ Wallet uses [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service) (BWS) for peer synchronization and network interfacing.
 
@@ -26,18 +26,18 @@ For a list of frequently asked questions please visit the [Copay FAQ](https://gi
 - Push notifications (only available for ios and android versions)
 - Customizable wallet naming and background colors
 - Multiple languages supported
-- Available for [iOS](https://itunes.apple.com/us/app/copay/id951330296), [Android](https://play.google.com/store/apps/details?id=com.btczcom.bitcoinz-wallet),
-[Linux](https://github.com/renuzit/bitcoinz-wallet/tags), [Windows](https://github.com/renuzit/bitcoinz-wallet/tags) and [OS X](https://github.com/renuzit/bitcoinz-wallet/tags) devices
+- Available for [iOS](https://itunes.apple.com/us/app/copay/id951330296), [Android](https://play.google.com/store/apps/details?id=com.btczcom.btcz-wallet),
+[Linux](https://github.com/renuzit/btcz-wallet/tags), [Windows](https://github.com/renuzit/btcz-wallet/tags) and [OS X](https://github.com/renuzit/btcz-wallet/tags) devices
 
 ## Testing in a Browser
 
-> **Note:** This method should only be used for development purposes. When running BitcoinZ Wallet in a normal browser environment, browser extensions and other malicious code might have access to internal data and private keys. For production use, see the latest official [releases](https://github.com/renuzit/bitcoinz-wallet/tags).
+> **Note:** This method should only be used for development purposes. When running BitcoinZ Wallet in a normal browser environment, browser extensions and other malicious code might have access to internal data and private keys. For production use, see the latest official [releases](https://github.com/renuzit/btcz-wallet/tags).
 
 Clone the repo and open the directory:
 
 ```
-git clone https://github.com/renuzit/bitcoinz-wallet.git
-cd bitcoinz-wallet
+git clone https://github.com/renuzit/btcz-wallet.git
+cd btcz-wallet
 ```
 
 Install npm modules
@@ -200,7 +200,7 @@ For more information regarding how addresses are generated using this procedure,
 
 Since v1.2 BitcoinZ uses BIP39 mnemonics for backing up wallets.  The BIP44 standard is used for wallet address derivation. Multisig wallets use P2SH addresses, while non-multisig wallets use P2PKH.
 
-Information about backup and recovery procedures is available at: https://github.com/renuzit/bitcoinz-wallet/blob/master/backupRecovery.md
+Information about backup and recovery procedures is available at: https://github.com/renuzit/btcz-wallet/blob/master/backupRecovery.md
 
 Previous versions of BitcoinZ used files as backups. See the following section.
 
@@ -258,7 +258,7 @@ When creating or joining a wallet, BitcoinZ Wallet will ask for two public keys 
 
 Every time you need to sign a transaction, the device will be needed to perform the signature. Follow the on screen instructions after clicking the `send` or `accept` buttons.
 
-Finally, in case you lose the device and you have the 24 word seed for the device, you can recover access to your funds using BitcoinZ Wallet, see: https://github.com/renuzit/bitcoinz-wallet/blob/master/backupRecovery.md#hardware-wallets
+Finally, in case you lose the device and you have the 24 word seed for the device, you can recover access to your funds using BitcoinZ Wallet, see: https://github.com/renuzit/btcz-wallet/blob/master/backupRecovery.md#hardware-wallets
 
 
 ## Translations

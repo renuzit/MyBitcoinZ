@@ -1,6 +1,6 @@
 {
   "name": "BitcoinZ Wallet",
-  "app_id": "com.btczcom.bitcoinz-wallet-osx",
+  "app_id": "com.btczcom.btcz-wallet-osx",
   "integrations": {},
   "type": "ionic1",
   "watchPatterns": [
