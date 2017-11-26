@@ -15,9 +15,9 @@
     "bitcore"
   ],
   "main": "www/index.html",
-  "title": "MyBitcoinZ",
+  "title": "BitcoinZ",
   "window": {
-    "title": "MyBitcoinZ - MyBitcoinZ BitcoinZ Wallet",
+    "title": "BitcoinZ - BitcoinZ Wallet",
     "icon": "www/img/app/icon.png",
     "toolbar": false,
     "show": true,

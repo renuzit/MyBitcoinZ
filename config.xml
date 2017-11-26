@@ -3,9 +3,9 @@
   version="1.0.0"
   android-versionCode="382001"
   ios-CFBundleVersion="1.0.0">
-    <name>MyBitcoinZ</name>
+    <name>BitcoinZ Wallet</name>
     <description>
-      MyBitcoinZ BitcoinZ Wallet
+      BitcoinZ Wallet
     </description>
     <author email="support@bitpay.com" href="https://suite.bitcoinz.ph">
         BitPay Inc.
@@ -18,7 +18,7 @@
     <preference name="HideKeyboardFormAccessoryBar" value="true"/>
     <!-- #355 -->
     <preference name="WindowsStoreIdentityName" value="18C7659D.Copay-SecureBitcoinWallet"/>
-    <preference name="WindowsStoreDisplayName" value="MyBitcoinZ - Secure BitcoinZ Wallet"/>
+    <preference name="WindowsStoreDisplayName" value="BitcoinZ Wallet - Secure BitcoinZ Wallet"/>
 
     <!-- <preference name="KeyboardDisplayRequiresUserAction" value="false" /> -->
     <preference name="StatusBarBackgroundColor" value="#192c3a" />
