@@ -51,7 +51,6 @@ cp -R node_modules/bitcore-lib-btcz node_modules/bitcore-lib
 Ensure you have [Node](https://nodejs.org/) installed, then install and start MyBitcoinZ:
 
 ```
-npm run apply:copay
 npm start
 ```
 
@@ -74,7 +73,6 @@ Follow the [Cordova Android Platform Guide](https://cordova.apache.org/docs/en/l
 When your developement enviroment is ready, run the `start:android` npm package script.
 
 ```
-npm run apply:copay
 npm run start:android
 ```
 
@@ -85,7 +83,6 @@ Follow the [Cordova iOS Platform Guide](https://cordova.apache.org/docs/en/lates
 When your developement enviroment is ready, run the `start:ios` npm package script.
 
 ```
-npm run apply:copay
 npm run start:ios
 ```
 
@@ -106,7 +103,6 @@ and then enable this one:
 - Run:
 ```
 npm run clean-all
-npm run apply:copay
 npm run start:windows
 ```
 - Then open the project file with VS inside cordova/platform/windows/
@@ -118,7 +114,6 @@ The desktop version of MyBitcoinZ currently uses NW.js, an app runtime based on 
 When NW.js is installed, run the `start:desktop` npm package script.
 
 ```
-npm run apply:copay
 npm run start:desktop
 ```
 
@@ -132,7 +127,6 @@ The `final` commands build the production version of the app, and bundle it with
 
 ```
 npm run clean-all
-npm run apply:copay
 npm run final:android
 ```
 
@@ -140,7 +134,6 @@ npm run final:android
 
 ```
 npm run clean-all
-npm run apply:copay
 npm run final:ios
 ```
 
@@ -158,7 +151,6 @@ and then enable this one:
 - Run:
 ```
 npm run clean-all
-npm run apply:copay
 npm run final:windows
 ```
 - Then open the project file with VS inside cordova/platform/windows/
@@ -167,7 +159,6 @@ npm run final:windows
 
 ```
 npm run clean-all
-npm run apply:copay
 npm run final:desktop
 ```
 
@@ -176,7 +167,6 @@ npm run final:desktop
 > cd chrome-app/
 
 ```
-npm run apply:copay
 grunt
 make
 ```
