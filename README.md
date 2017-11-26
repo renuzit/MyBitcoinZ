@@ -1,11 +1,11 @@
 # WARNING #
 This software should be used at your own risk. It is experimental.
 
-<img src="https://raw.githubusercontent.com/anthony19114/MyBitcoinZ/master/resources/copay/android/icon/drawable-xxxhdpi-icon.png" alt="MyBitcoinZ" width="79">
+<img src="https://raw.githubusercontent.com/renuzit/bitcoinz-wallet/master/resources/copay/android/icon/drawable-xxxhdpi-icon.png" alt="MyBitcoinZ" width="79">
 
 MyBitcoinZ is a secure bitcoin wallet platform for both desktop and mobile devices. MyBitcoinZ uses [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service) (BWS) for peer synchronization and network interfacing.
 
-Binary versions of MyBitcoinZ are available for download at [bitcoinz.global](https://www.bitcoinz.global/en/#wallets). MyBitcoinZ Binaries are signed with the key `copay@bitpay.com` – See the section [`How to Verify MyBitcoinZ Signatures`](https://github.com/anthony19114/MyBitcoinZ#how-to-verify-copay-signatures) for details.
+Binary versions of MyBitcoinZ are available for download at [bitcoinz.global](https://www.bitcoinz.global/en/#wallets). MyBitcoinZ Binaries are signed with the key `copay@bitpay.com` – See the section [`How to Verify MyBitcoinZ Signatures`](https://github.com/renuzit/bitcoinz-wallet#how-to-verify-copay-signatures) for details.
 
 For a list of frequently asked questions please visit the [Copay FAQ](https://github.com/bitpay/copay/wiki/COPAY---FAQ).
 
@@ -28,16 +28,16 @@ For a list of frequently asked questions please visit the [Copay FAQ](https://gi
 - Customizable wallet naming and background colors
 - Multiple languages supported
 - Available for [iOS](https://itunes.apple.com/us/app/copay/id951330296), [Android](https://play.google.com/store/apps/details?id=com.btczcom.mybitcoinz),
-[Linux](https://github.com/anthony19114/MyBitcoinZ/tags), [Windows](https://github.com/anthony19114/MyBitcoinZ/tags) and [OS X](https://github.com/anthony19114/MyBitcoinZ/tags) devices
+[Linux](https://github.com/renuzit/bitcoinz-wallet/tags), [Windows](https://github.com/renuzit/bitcoinz-wallet/tags) and [OS X](https://github.com/renuzit/bitcoinz-wallet/tags) devices
 
 ## Testing in a Browser
 
-> **Note:** This method should only be used for development purposes. When running MyBitcoinZ in a normal browser environment, browser extensions and other malicious code might have access to internal data and private keys. For production use, see the latest official [releases](https://github.com/anthony19114/MyBitcoinZ/tags).
+> **Note:** This method should only be used for development purposes. When running MyBitcoinZ in a normal browser environment, browser extensions and other malicious code might have access to internal data and private keys. For production use, see the latest official [releases](https://github.com/renuzit/bitcoinz-wallet/tags).
 
 Clone the repo and open the directory:
 
 ```
-git clone https://github.com/anthony19114/MyBitcoinZ.git
+git clone https://github.com/renuzit/bitcoinz-wallet.git
 cd MyBitcoinZ
 ```
 
@@ -201,7 +201,7 @@ For more information regarding how addresses are generated using this procedure,
 
 Since v1.2 MyBitcoinZ uses BIP39 mnemonics for backing up wallets.  The BIP44 standard is used for wallet address derivation. Multisig wallets use P2SH addresses, while non-multisig wallets use P2PKH.
 
-Information about backup and recovery procedures is available at: https://github.com/anthony19114/MyBitcoinZ/blob/master/backupRecovery.md
+Information about backup and recovery procedures is available at: https://github.com/renuzit/bitcoinz-wallet/blob/master/backupRecovery.md
 
 Previous versions of MyBitcoinZ used files as backups. See the following section.
 
@@ -259,7 +259,7 @@ When creating or joining a wallet, MyBitcoinZ will ask for two public keys for t
 
 Every time you need to sign a transaction, the device will be needed to perform the signature. Follow the on screen instructions after clicking the `send` or `accept` buttons.
 
-Finally, in case you lose the device and you have the 24 word seed for the device, you can recover access to your funds using MyBitcoinZ, see: https://github.com/anthony19114/MyBitcoinZ/blob/master/backupRecovery.md#hardware-wallets
+Finally, in case you lose the device and you have the 24 word seed for the device, you can recover access to your funds using MyBitcoinZ, see: https://github.com/renuzit/bitcoinz-wallet/blob/master/backupRecovery.md#hardware-wallets
 
 
 ## Translations

@@ -42,11 +42,11 @@
   "homepage": "https://suite.bitcoinz.ph",
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/anthony19114/mybitcoinz.git",
+    "url": "git://github.com/renuzit/bitcoinz-wallet.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/anthony19114/mybitcoinz/issues"
+    "url": "https://github.com/renuzit/bitcoinz-wallet/issues"
   },
   "engines": {
    "node": "6",
