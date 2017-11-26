@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.bitpay.copay"
+<widget id="com.bitcoinz.bitcoinz-wallet"
   version="1.0.0"
   android-versionCode="382001"
   ios-CFBundleVersion="1.0.0">
@@ -7,7 +7,7 @@
     <description>
       BitcoinZ Wallet
     </description>
-    <author email="support@bitpay.com" href="https://suite.bitcoinz.ph">
+    <author email="admin@bitcoinz.ph" href="https://bitcoinz.global">
         BitPay Inc.
     </author>
     <content src="index.html" />
